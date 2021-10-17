@@ -817,7 +817,7 @@ user_pref("privacy.cpd.history",				true);
 user_pref("privacy.cpd.sessions",				true);
 
 // PREF: Don't remember browsing history
-user_pref("places.history.enabled",				false);
+user_pref("places.history.enabled", true);
 
 // PREF: Disable disk cache
 // http://kb.mozillazine.org/Browser.cache.disk.enable
@@ -872,14 +872,14 @@ user_pref("security.insecure_field_warning.contextual.enabled", true);
 
 // PREF: Delete Search and Form History
 // CIS Version 1.2.0 October 21st, 2011 2.5.6
-user_pref("browser.formfill.expire_days",			0);
+user_pref("browser.formfill.expire_days", 14);
 
 // PREF: Clear SSL Form Session Data
 // http://kb.mozillazine.org/Browser.sessionstore.privacy_level#2
 // Store extra session data for unencrypted (non-HTTPS) sites only.
 // CIS Version 1.2.0 October 21st, 2011 2.5.7
 // NOTE: CIS says 1, we use 2
-user_pref("browser.sessionstore.privacy_level",			2);
+user_pref("browser.sessionstore.privacy_level",	0);
 
 // PREF: Delete temporary files on exit
 // https://bugzilla.mozilla.org/show_bug.cgi?id=238789
