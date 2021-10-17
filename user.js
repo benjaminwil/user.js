@@ -210,13 +210,13 @@ user_pref("camera.control.face_detection.enabled",		false);
 // PREF: Disable GeoIP lookup on your address to set default search engine region
 // https://trac.torproject.org/projects/tor/ticket/16254
 // https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_geolocation-for-default-search-engine
-user_pref("browser.search.countryCode",				"US");
-user_pref("browser.search.region",				"US");
-user_pref("browser.search.geoip.url",				"");
+user_pref("browser.search.countryCode", "CA");
+user_pref("browser.search.region", "CA");
+user_pref("browser.search.geoip.url", "");
 
 // PREF: Set Accept-Language HTTP header to en-US regardless of Firefox localization
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language
-user_pref("intl.accept_languages",				"en-US, en");
+user_pref("intl.accept_languages", "en-CA, en-US, en");
 
 // PREF: Don't use OS values to determine locale, force using Firefox locale setting
 // http://kb.mozillazine.org/Intl.locale.matchOS
@@ -236,7 +236,7 @@ user_pref("javascript.use_us_english_locale",			true);
 
 // PREF: Do not submit invalid URIs entered in the address bar to the default search engine
 // http://kb.mozillazine.org/Keyword.enabled
-user_pref("keyword.enabled",					false);
+user_pref("keyword.enabled", true);
 
 // PREF: Don't trim HTTP off of URLs in the address bar.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=665580
