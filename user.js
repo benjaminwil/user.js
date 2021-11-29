@@ -942,7 +942,7 @@ user_pref("browser.download.folderList",			2);
 
 // PREF: Always ask the user where to download
 // https://developer.mozilla.org/en/Download_Manager_preferences (obsolete)
-user_pref("browser.download.useDownloadDir",			false);
+user_pref("browser.download.useDownloadDir",true);
 
 // PREF: Disable the "new tab page" feature and show a blank tab instead
 // https://wiki.mozilla.org/Privacy/Reviews/New_Tab
