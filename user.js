@@ -800,7 +800,7 @@ user_pref("browser.cache.offline.enable",			false);
 // NOTICE: Installing user.js **will remove your saved passwords** (https://github.com/pyllyukko/user.js/issues/27)
 // NOTICE: Clearing open windows on Firefox exit causes 2 windows to open when Firefox starts https://bugzilla.mozilla.org/show_bug.cgi?id=1334945
 user_pref("privacy.sanitize.sanitizeOnShutdown", false);
-user_pref("privacy.clearOnShutdown.cache",			true);
+user_pref("privacy.clearOnShutdown.cache", false);
 user_pref("privacy.clearOnShutdown.cookies", false);
 user_pref("privacy.clearOnShutdown.downloads",			true);
 user_pref("privacy.clearOnShutdown.formdata",			true);
