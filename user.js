@@ -788,7 +788,7 @@ user_pref("network.cookie.thirdparty.sessionOnly",		true);
 // NOTICE: Private browsing breaks Kerberos authentication
 // NOTICE: Disables "Containers" functionality (see below)
 // NOTICE: "Always use private browsing mode" (browser.privatebrowsing.autostart) disables the possibility to use password manager: https://support.mozilla.org/en-US/kb/usernames-and-passwords-are-not-saved#w_private-browsing
-user_pref("browser.privatebrowsing.autostart",			true);
+user_pref("browser.privatebrowsing.autostart", false);
 
 // PREF: Do not download URLs for the offline cache
 // http://kb.mozillazine.org/Browser.cache.offline.enable
@@ -799,14 +799,14 @@ user_pref("browser.cache.offline.enable",			false);
 // NOTICE: Installing user.js will remove your browsing history, caches and local storage.
 // NOTICE: Installing user.js **will remove your saved passwords** (https://github.com/pyllyukko/user.js/issues/27)
 // NOTICE: Clearing open windows on Firefox exit causes 2 windows to open when Firefox starts https://bugzilla.mozilla.org/show_bug.cgi?id=1334945
-user_pref("privacy.sanitize.sanitizeOnShutdown",		true);
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);
 user_pref("privacy.clearOnShutdown.cache",			true);
-user_pref("privacy.clearOnShutdown.cookies",			true);
+user_pref("privacy.clearOnShutdown.cookies", false);
 user_pref("privacy.clearOnShutdown.downloads",			true);
 user_pref("privacy.clearOnShutdown.formdata",			true);
-user_pref("privacy.clearOnShutdown.history",			true);
+user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.offlineApps",		true);
-user_pref("privacy.clearOnShutdown.sessions",			true);
+user_pref("privacy.clearOnShutdown.sessions", false);
 user_pref("privacy.clearOnShutdown.openWindows",		true);
 
 // PREF: Set time range to "Everything" as default in "Clear Recent History"
