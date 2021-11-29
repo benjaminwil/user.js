@@ -173,12 +173,12 @@ user_pref("dom.archivereader.enabled",				false);
 // PREF: Disable webGL
 // https://en.wikipedia.org/wiki/WebGL
 // https://www.contextis.com/resources/blog/webgl-new-dimension-browser-exploitation/
-user_pref("webgl.disabled",					true);
+user_pref("webgl.disabled",	false);
 // PREF: When webGL is enabled, use the minimum capability mode
-user_pref("webgl.min_capability_mode",				true);
+user_pref("webgl.min_capability_mode", false);
 // PREF: When webGL is enabled, disable webGL extensions
 // https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API#WebGL_debugging_and_testing
-user_pref("webgl.disable-extensions",				true);
+user_pref("webgl.disable-extensions", true);
 // PREF: When webGL is enabled, force enabling it even when layer acceleration is not supported
 // https://trac.torproject.org/projects/tor/ticket/18603
 user_pref("webgl.disable-fail-if-major-performance-caveat",	true);
