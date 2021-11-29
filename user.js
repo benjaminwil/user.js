@@ -668,7 +668,7 @@ user_pref("browser.search.suggest.enabled",			false);
 // PREF: Disable "Show search suggestions in location bar results"
 user_pref("browser.urlbar.suggest.searches",			false);
 // PREF: When using the location bar, don't suggest URLs from browsing history
-user_pref("browser.urlbar.suggest.history",			false);
+user_pref("browser.urlbar.suggest.history", true);
 // PREF: Disable Firefox Suggest
 // https://www.ghacks.net/2021/09/09/how-to-disable-firefox-suggest/
 // https://support.mozilla.org/en-US/kb/navigate-web-faster-firefox-suggest
