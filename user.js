@@ -1222,3 +1222,28 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 //user_pref("security.ssl3.rsa_aes_128_sha",			false); // 0x2f
 //user_pref("security.ssl3.ecdhe_rsa_aes_256_sha",		false); // 0xc014
 //user_pref("security.ssl3.ecdhe_ecdsa_aes_256_sha",		false); // 0xc00a
+
+// Compact mode (no longer supported)
+user_pref("browser.compactmode.show", true);
+user_pref("browser.newtabpage.activity-stream.discoverystream.compactLayout.enabled", true);
+
+// Mozilla VPN
+user_pref("browser.privatebrowsing.vpnpromourl", "");
+
+// Sponsored Sites
+user_pref("browser.newtabpage.activity-stream.discoverystream.sponsored-collections.enabled", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+
+// Tabs
+user_pref("browser.tabs.tabClipWidth", 72);
+user_pref("browser.tabs.tabMinWidth", 48);
+
+// Reader
+user_pref("reader.color_scheme.values", ["dark", "sepia", "light"]);
+user_pref("reader.content_width", 6);
+user_pref("reader.font_size", 4);
+user_pref("reader.font_type", "serif");
+user_preg("reader.line_height", 4);
