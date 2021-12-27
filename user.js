@@ -301,7 +301,7 @@ user_pref("javascript.options.asmjs",				false);
 // PREF: Disable SVG in OpenType fonts
 // https://wiki.mozilla.org/SVGOpenTypeFonts
 // https://github.com/iSECPartners/publications/tree/master/reports/Tor%20Browser%20Bundle
-user_pref("gfx.font_rendering.opentype_svg.enabled",		false);
+user_pref("gfx.font_rendering.opentype_svg.enabled", true);
 
 // PREF: Disable in-content SVG rendering (Firefox >= 53) (disabled)
 // NOTICE-DISABLED: Disabling SVG support breaks many UI elements on many sites
@@ -326,7 +326,7 @@ user_pref("browser.startup.homepage_override.buildID",		"20100101");
 // https://github.com/pyllyukko/user.js/issues/395
 // https://browserleaks.com/fonts
 // https://github.com/pyllyukko/user.js/issues/120
-user_pref("browser.display.use_document_fonts",			0);
+user_pref("browser.display.use_document_fonts", 1);
 
 // PREF: Enable only whitelisted URL protocol handlers
 // http://kb.mozillazine.org/Network.protocol-handler.external-default
